@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_deepakponnada_go_pipeline_sample_1704739108198-push-trigger-input-set
+  identifier: Build_deepakponnada_go_pipeline_sample_1704739108198pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_deepakponnada_go_pipeline_sample_1704739108198
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
